@@ -27,10 +27,10 @@ public class SecurityConfig extends WebSecurityConfiguration {
  				.antMatchers("/user/**").hasAnyAuthority("ADMIN", "USER")
  				.and().formLogin().permitAll();
 	}
-/*
+
  	@Override
  	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
- 	
+/* 	
  		String admin = "admin";	
  		String adminPassword = encoder().encode("123123");	
  		
@@ -45,7 +45,8 @@ public class SecurityConfig extends WebSecurityConfiguration {
 			
  		
  		auth.userDetailsService(userService).passwordEncoder(encoder());
- 	}*/
+*/
+ 	}
 
  	@Bean
  	public BCryptPasswordEncoder encoder() {
