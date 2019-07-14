@@ -3,7 +3,6 @@ package com.EKSAD.tugas.TugasSwagger.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
