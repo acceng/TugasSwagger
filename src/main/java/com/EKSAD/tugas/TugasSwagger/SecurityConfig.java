@@ -50,6 +50,7 @@ public class SecurityConfig extends WebSecurityConfiguration {
 
  	@Bean
  	public BCryptPasswordEncoder encoder() {
+ 		
  		return new BCryptPasswordEncoder();
  	}
 }

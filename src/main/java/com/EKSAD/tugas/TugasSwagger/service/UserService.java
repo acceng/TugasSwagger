@@ -15,7 +15,6 @@ import com.EKSAD.tugas.TugasSwagger.dao.UserDAO;
 import com.EKSAD.tugas.TugasSwagger.model.Users;
 
 @Service
-
 public class UserService implements UserDetailsService{
 
 	@Autowired

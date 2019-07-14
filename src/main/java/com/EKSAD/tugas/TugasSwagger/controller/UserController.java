@@ -19,7 +19,7 @@ public class UserController {
 
 	@Autowired
 	UserDAO userDao;
-//	
+
 	@RequestMapping("")
 	public HashMap<String, Object> admin(){
 		
